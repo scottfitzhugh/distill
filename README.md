@@ -95,7 +95,7 @@ echo "console.log('Hello, World!');" > hello.js
 distill
 ```
 
-#### Selective Staging
+#### Selective Staging 
 ```bash
 # Stage specific files
 git add src/main.rs
