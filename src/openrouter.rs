@@ -52,7 +52,7 @@ impl OpenRouterClient {
 		let prompt = self.create_commit_prompt(diff);
 		
 		let request = ChatRequest {
-			model: "google/gemini-2.0-flash-exp:free".to_string(),
+			model: "meta-llama/llama-3.1-8b-instruct:free".to_string(),
 			messages: vec![
 				Message {
 					role: "system".to_string(),
