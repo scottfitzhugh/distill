@@ -211,7 +211,7 @@ RUST_LOG=debug cargo run -- --verbose
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Acknowledgments
+## Acknowledgments 
 
 - OpenRouter for providing the AI API
 - The Rust community for excellent crates
